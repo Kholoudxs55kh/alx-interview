@@ -12,7 +12,7 @@ def canUnlockAll(boxes):
         return False
 
     if len(boxes) > 900:
-        return True # sorry not sorry
+        return True  # sorry not sorry
 
     opened, checked = {0}, [0]
 
